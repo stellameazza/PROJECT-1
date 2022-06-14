@@ -129,6 +129,17 @@
                                     <segue destination="JIa-tl-4Fx" kind="show" id="r7K-Hm-nP3"/>
                                 </connections>
                             </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rKC-Ub-JTD">
+                                <rect key="frame" x="136" y="777" width="131" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="buttonExtra:" destination="LpU-D0-p5j" eventType="valueChanged" id="jSS-7B-g4K"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5ab-Rk-KlZ"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
